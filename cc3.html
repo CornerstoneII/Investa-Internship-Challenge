@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo App</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" href="cc3.css">
+</head>
+<body>
+	<div class="container">
+		<div class="todo">
+			
+			
+			<ul class="todo__body" id="todo__body">
+				<li class="todo__item">
+				Testing todo item
+				
+				<div class="todo__buttons">
+                    <button class="btn todo--complete">
+						<i class="material-icons">check_circle_outline</i>
+					</button>
+					<button class="btn todo--delete">
+						<i class="material-icons">delete_outline</i>
+					</button>
+					
+					</div><!-- End of .todo__buttons -->
+				</li><!-- End of .todo__item -->
+				
+				<li class="todo__item">
+					Make some todo app
+					
+					<div class="todo__buttons">
+                        <button class="btn todo--complete">
+							<i class="material-icons">check_circle_outline</i>
+						</button>
+						<button class="btn todo--delete">
+							<i class="material-icons">delete_outline</i>
+						</button>
+						
+					</div><!-- End of .todo__buttons -->
+				</li><!-- End of .todo__item -->
+				
+			</ul><!-- End of #todo__body.todo__body -->
+			<div class="todo__header">
+                <button class="btn todo__create" id="todo__create"><i class="material-icons">add</i></button>
+
+                <input type="text" name="todo__title" id="todo__title" class="todo__title" placeholder="Enter Task Title" />
+                <input type="text" name="todo__title" id="todo__descr" class="todo__title" placeholder="Enter Task Description" />
+			</div>	
+		</div><!-- End of .todo -->
+	</div><!-- End of .container -->
+
+
+
+	
+</body>
+</html>
